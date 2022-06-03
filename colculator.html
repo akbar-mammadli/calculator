@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="colculator.css">
+</head>
+<body>
+    
+    <div class="header">
+        <div class="input_side">
+            <form action="">
+                <input class="inp" type="text">
+            </form>
+        </div>
+        <table class="table">
+            <tr>
+                <td onclick="AC()" id="ac" class="grey">AC</td>
+                <td  id="kesr" class="grey"> +/- </td>
+                <td onclick="faiz()" id="faiz" class="grey">%</td>
+                <td onclick="emeliyyat('/')" id="bolme">/</td>
+            </tr>
+            <tr>
+                <td onclick="reqem('7')" id="yeddi">7</td>
+                <td onclick="reqem('8')" id="sekkiz" >8</td>
+                <td onclick="reqem('9')" id="doqquz" >9</td>
+                <td onclick="emeliyyat('*')" id="vurma" >x</td>
+            </tr>
+            <tr>
+                <td onclick="reqem('4')" id="dord" >4</td>
+                <td onclick="reqem('5')" id="bes" >5</td>
+                <td onclick="reqem('6')" id="alti" >6</td>
+                <td onclick="emeliyyat('-')" id="cixma" >-</td>
+            </tr>
+            <tr>
+                <td onclick="reqem('1')" id="bir" >1</td>
+                <td onclick="reqem('2')" id="iki" >2</td>
+                <td onclick="reqem('3')" id="uc" >3</td>
+                <td onclick="emeliyyat('+')" id="ustegel" >+</td>
+            </tr>
+            <tr>
+                <td onclick="sifir()" id="sifir"  colspan="2">0</td>
+                <td onclick="noqte()" id="noqte" >.</td>
+                <td onclick="beraber()" id="beraber" >=</td>
+            </tr>
+        </table>
+    </div>
+    <script src="colculator.js"></script>
+</body>
+</html>

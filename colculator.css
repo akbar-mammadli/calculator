@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 300px;
+    margin: 200px auto;
+}
+.header .input_side input{
+    font-size: 20px;
+    width: 100%;
+    padding: 25px 15px;
+    background-color: #2A2C2F;
+    border: none;
+    color: white;
+}
+.header .input_side input:focus{
+    outline: none;
+}
+.header .table{
+    text-align: center;
+    border-collapse: collapse;
+    width: 100%;
+}
+.header .table td{
+    padding: 20px;
+    border: 1px solid black;
+    background-color: #5F6062;  
+    color: white;
+}
+
+.header .table .grey{
+    background-color: #3E4143;
+}
+.header .table td:last-child{
+    background-color: #FF9F17;
+}
